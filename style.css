@@ -1,3 +1,74 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+  
+.nav {
+    height: 55px;
+    width: 100%;
+    background-color:#fd472d;
+    position: fixed;
+}
+  
+.nav > .nav-header {
+    display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+
+.button{
+    text-decoration: none;
+    background: linear-gradient(90deg , #fc8f49, #fe482d);
+    padding: 15px 40px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.orangeText{
+color:#fd472d;
+}
+
+h1{
+    color: gray;
+    font-weight: 800;
+    font-size: 300%;
+    margin: 0%;
+}
+
+h3{
+    color: gray;
+}
+
+.commonSection{
+    display: flex;
+}
+
+.commonDiv{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.textDiv{
+    margin-top: 15%;
 }
