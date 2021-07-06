@@ -4,7 +4,7 @@ body{
 }
   
 .nav {
-    height: 55px;
+    height: 70px;
     width: 100%;
     background-color:#fd472d;
     position: fixed;
@@ -17,9 +17,9 @@ body{
 .nav > .nav-header > .nav-title {
   text-decoration: none;
   display: inline-block;
-  font-size: 22px;
+  font-size: 30px;
   color: #fff;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 30px;
 }
 
 .nav > .nav-links {
@@ -30,9 +30,13 @@ body{
 
 .nav > .nav-links > a {
   display: inline-block;
-  padding: 13px 10px 13px 10px;
+  padding: 21px 21px 21px 21px;
   text-decoration: none;
   color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  box-shadow: 5px 8px 50px 5px rgba(0,0,0,0.5);
 }
 
 
@@ -116,7 +120,7 @@ h3{
 
 .card {
     box-shadow: 0 4px 40px rgba(0,0,0,0.3);
-    width: 29%;
+    width: 30%;
     border-radius: 20px 20px 0px 0px;
     margin-right: 2%;
     margin-left: 2%;
