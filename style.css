@@ -86,7 +86,8 @@ h3{
 }
 
 #second-section img{
-    width: 80%;
+    margin-left: 5%;
+    width: 76.7%;
 }
 
 .text-div{
@@ -105,6 +106,7 @@ h3{
     text-align: center;
     padding-left: 20%;
     padding-right: 20%;
+    margin-bottom: 5%;
 }
 
 #third-section{
@@ -114,10 +116,10 @@ h3{
 
 .card {
     box-shadow: 0 4px 40px rgba(0,0,0,0.3);
-    width: 26%;
-    border-radius: 7%;
-    margin-right: 4%;
-    margin-left: 4%;
+    width: 29%;
+    border-radius: 20px 20px 0px 0px;
+    margin-right: 2%;
+    margin-left: 2%;
   }
   
   .card:hover {
@@ -125,8 +127,9 @@ h3{
   }
   
   #third-section > .card > img {
+    padding: 15px;
     border-radius: 7%;
-    width: 80%;
+    width: 92%;
     height: 60%;
   }
   
@@ -137,7 +140,10 @@ h3{
   #forth-section-div{
     display: flex;
     margin: 5% 10%;
-    border-radius: 5%;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.3);
+  }
+
+  #forth-section-div:hover {
     box-shadow: 0 8px 50px rgba(0,0,0,0.5);
   }
   
@@ -151,5 +157,12 @@ h3{
   #forth-section-div > div > h2{
     font-size: 200%;
     font-weight: 700;
+  }
+
+  footer{
+      background-color: rgb(46, 46, 46);
+      text-align: center;
+      padding-bottom: 10%;
+      padding-top: 3%;
   }
   
