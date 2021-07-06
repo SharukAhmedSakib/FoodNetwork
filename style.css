@@ -39,13 +39,18 @@ body{
 .button{
     text-decoration: none;
     background: linear-gradient(90deg , #fc8f49, #fe482d);
-    padding: 15px 40px;
-    border-radius: 20px;
+    padding: 15px 30px;
+    border-radius: 25px;
     color: white;
     font-weight: 700;
+    box-shadow: 5px 0px 20px #fe482d;
 }
 
-.orangeText{
+.button-margin{
+    padding-top: 20px;
+}
+
+.orange-text{
 color:#fd472d;
 }
 
@@ -60,15 +65,35 @@ h3{
     color: gray;
 }
 
-.commonSection{
+.common-section{
     display: flex;
 }
 
-.commonDiv{
-    padding-left: 5%;
+.common-div{
+    padding: 5%;
+}
+
+#first-section{
     padding-top: 5%;
 }
 
-.textDiv{
-    margin-top: 15%;
+#first-section img{
+    width: 100%;
+}
+
+#second-section img{
+    width: 80%;
+}
+
+.text-div{
+    margin-top: 10%;
+}
+
+#second-section{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#text-pad{
+    padding-left: 10%;
 }
